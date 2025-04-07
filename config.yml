@@ -2,10 +2,10 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 
 # the URL is for the github pages
-# baseURL: "https://maxchen0102.github.io/Cwebsite/"  
+baseURL: "https://maxchen0102.github.io/Cwebsite/"  
 
 # the URL is for the vercel app
-baseURL: "https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/"
+# baseURL: "https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/"
 
 
 
