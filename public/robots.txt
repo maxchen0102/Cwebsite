@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/sitemap.xml
