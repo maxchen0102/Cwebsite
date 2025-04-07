@@ -7,6 +7,8 @@
 # the URL is for the vercel app
 baseURL: "https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/"
 
+
+
 title: PaperMod
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 # paginate: 5  # Deprecated in Hugo v0.128.0
@@ -38,13 +40,13 @@ languages:
     menu:
       main:
         - name: Archive
-          url: archives
+          url: /archives/
           weight: 5
         - name: Search
-          url: search/
+          url: /search/
           weight: 10
         - name: Tags
-          url: tags/
+          url: /tags/
           weight: 10
         - name: WiKi
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
@@ -193,11 +195,13 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    canonifyURLs: true
+    relativeURLs: true
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
