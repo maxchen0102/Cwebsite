@@ -1,20 +1,15 @@
-# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
-# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 
-# the URL is for the github pages
+
+# the URL is for the github pages, because it will generate the route for every page of the website
 baseURL: "https://maxchen0102.github.io/Cwebsite/"  
-
-# the URL is for the vercel app
-# baseURL: "https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/"
 
 # Google Analytics ID (G-XXXXXXXXXX 或 UA-XXXXXXXXX-X)
 googleAnalytics: "G-QNR8ZBX7XN"
 
-title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
-# paginate: 5  # Deprecated in Hugo v0.128.0
+title: Chris's Website
+copyright: "© 2020-2025 程式思維 | All Rights Reserved."
 pagination:
-  pagerSize: 5
+  pagerSize: 10 # the number of posts to show on the homepage
 theme: [hugo-PaperMod]
 
 enableInlineShortcodes: true
@@ -111,17 +106,7 @@ params:
     - name: Discord
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+      
 
   # label:
   # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
@@ -129,9 +114,6 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
 
   analytics:
     google:
@@ -174,23 +156,7 @@ markup:
     # lineNos: true
     # style: monokai
 
-# privacy:
-#   vimeo:
-#     disabled: false
-#     simple: true
 
-#   twitter:
-#     disabled: false
-#     enableDNT: true
-#     simple: true
-
-#   instagram:
-#     disabled: false
-#     simple: true
-
-#   youtube:
-#     disabled: false
-#     privacyEnhanced: true
 
 services:
   instagram:
