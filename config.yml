@@ -82,7 +82,7 @@ params:
   # 導航欄下拉選單設定
   navbarBackend:
     - name: "後端架構"
-      url: "/categories/backend-architecture/"
+      url: "/posts/my-first-post/"
     - name: "API 設計"
       url: "/categories/api-design/"
     - name: "資料庫優化"
@@ -201,8 +201,8 @@ markup:
 
 
 
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
+# services:
+#   instagram:
+#     disableInlineCSS: true
+#   twitter:
+#     disableInlineCSS: true

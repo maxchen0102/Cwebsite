@@ -185,7 +185,7 @@ iframe {
     z-index: 100;
 }
 
-.dropdown:hover .dropdown-menu {
+.nav-item.dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -246,7 +246,7 @@ iframe {
 /* 下拉選單 JavaScript */
 @media (hover: hover) {
     /* 只在支持 hover 的設備上啟用 */
-    .dropdown:hover .dropdown-menu {
+    .nav-item.dropdown:hover .dropdown-menu {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
