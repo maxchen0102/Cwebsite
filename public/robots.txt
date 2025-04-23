@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://maxchen0102.github.io/Cwebsite/sitemap.xml
