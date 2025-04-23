@@ -73,14 +73,12 @@ params:
 
   # 導航欄下拉選單設定
   navbarBackend:
-    - name: "Django後端知識"
-      url: "/Cwebsite/posts/my-first-post/"
+    - name: "Django和後端技術"
+      url: "/Cwebsite/categories/backend/"
     - name: "API 設計"
       url: "/Cwebsite/categories/api-design/"
     - name: "資料庫優化"
       url: "/Cwebsite/categories/database/"
-    - name: "Leetcode刷題"
-      url: "/Cwebsite/categories/server-management/"
     
   navbarCourses:
     - name: "Django 網站開發"
