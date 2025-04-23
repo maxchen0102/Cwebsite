@@ -2,88 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:53014/Cwebsite/fa/facategories/</loc>
+  </url><url>
+    <loc>http://localhost:53014/Cwebsite/fa/faseries/</loc>
+  </url><url>
+    <loc>http://localhost:53014/Cwebsite/fa/fatags/</loc>
+  </url><url>
+    <loc>http://localhost:53014/Cwebsite/fa/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://maxchen0102.github.io/Cwebsite/posts/markdown-syntax/"
+                href="http://localhost:53014/Cwebsite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://maxchen0102.github.io/Cwebsite/fr/posts/markdown-syntax/"
+                href="http://localhost:53014/Cwebsite/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://maxchen0102.github.io/Cwebsite/fa/posts/markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/facategories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/facategories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/facategories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/faseries/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/faseries/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/fatags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/fatags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/fatags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/fatags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/fatags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maxchen0102.github.io/Cwebsite/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://maxchen0102.github.io/Cwebsite/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://maxchen0102.github.io/Cwebsite/fa/"
-                />
-  </url><url>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maxchen0102.github.io/Cwebsite/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://maxchen0102.github.io/Cwebsite/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://maxchen0102.github.io/Cwebsite/fa/posts/"
+                href="http://localhost:53014/Cwebsite/fa/"
                 />
   </url>
 </urlset>

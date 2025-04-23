@@ -1,101 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on PaperMod</title>
+    <title>Tags on Chris&#39;s Website</title>
     <link>https://maxchen0102.github.io/Cwebsite/tags/</link>
-    <description>Recent content in Tags on PaperMod</description>
+    <description>Recent content in Tags on Chris&#39;s Website</description>
     <image>
-      <title>PaperMod</title>
+      <title>Chris&#39;s Website</title>
       <url>https://maxchen0102.github.io/Cwebsite/images/papermod-cover.png</url>
       <link>https://maxchen0102.github.io/Cwebsite/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <copyright>PaperMod Contributors</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <copyright>2020-2025 程式思維 | All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 23 Apr 2025 14:57:00 +0800</lastBuildDate>
     <atom:link href="https://maxchen0102.github.io/Cwebsite/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docs</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/docs/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/docs/</guid>
+      <title>Hugo</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/hugo/</link>
+      <pubDate>Wed, 23 Apr 2025 14:57:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
-      <title>PaperMod</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/papermod/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/papermod/</guid>
+      <title>博客</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 23 Apr 2025 14:57:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     <item>
-      <title>Css</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/css/</guid>
+      <title>Api</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/api/</link>
+      <pubDate>Wed, 18 Oct 2023 14:30:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/api/</guid>
       <description></description>
     </item>
     <item>
-      <title>Html</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/html/</guid>
+      <title>Http</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/http/</link>
+      <pubDate>Wed, 18 Oct 2023 14:30:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/http/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/markdown/</guid>
+      <title>Rest</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/rest/</link>
+      <pubDate>Wed, 18 Oct 2023 14:30:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/rest/</guid>
       <description></description>
     </item>
     <item>
-      <title>Themes</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/themes/</guid>
+      <title>Architecture</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/architecture/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
-      <title>Code</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/code/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/code/</guid>
+      <title>Backend</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/backend/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/backend/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gist</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/gist/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/gist/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emoji</title>
-      <link>https://maxchen0102.github.io/Cwebsite/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/tags/emoji/</guid>
+      <title>Design-Patterns</title>
+      <link>https://maxchen0102.github.io/Cwebsite/tags/design-patterns/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0800</pubDate>
+      <guid>https://maxchen0102.github.io/Cwebsite/tags/design-patterns/</guid>
       <description></description>
     </item>
   </channel>

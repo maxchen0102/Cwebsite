@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://maxchen0102.github.io/Cwebsite/en/sitemap.xml</loc>
-    
-      <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://maxchen0102.github.io/Cwebsite/fr/sitemap.xml</loc>
-    
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://maxchen0102.github.io/Cwebsite/fa/sitemap.xml</loc>
-    
-      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://maxchen0102.github.io/Cwebsite/</loc>
+    <lastmod>2025-04-23T15:00:14+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/posts/</loc>
+    <lastmod>2025-04-23T15:00:14+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/categories/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/hugo/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/posts/second-post/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/categories/web/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-04-23T14:57:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/api/</loc>
+    <lastmod>2023-10-18T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/categories/api-design/</loc>
+    <lastmod>2023-10-18T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/http/</loc>
+    <lastmod>2023-10-18T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/rest/</loc>
+    <lastmod>2023-10-18T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/posts/restful-api-design/</loc>
+    <lastmod>2023-10-18T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/architecture/</loc>
+    <lastmod>2023-10-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/backend/</loc>
+    <lastmod>2023-10-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/categories/backend-architecture/</loc>
+    <lastmod>2023-10-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/tags/design-patterns/</loc>
+    <lastmod>2023-10-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/posts/backend-architecture-intro/</loc>
+    <lastmod>2023-10-15T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/posts/my-first-post/</loc>
+    <lastmod>2023-07-23T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/archives/</loc>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/search/</loc>
+  </url><url>
+    <loc>https://maxchen0102.github.io/Cwebsite/series/</loc>
+  </url>
+</urlset>
