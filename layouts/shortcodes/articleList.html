@@ -84,7 +84,9 @@
 </style>
 
 <div class="article-cards">
-  {{ range .Page.Parent.Pages }}
+  {{ $currentDir := .Page.File.Dir }}
+  {{ range where .Site.RegularPages "Section" (.Page.Section) }}
+    {{ if eq (path.Dir .File.Path) (path.Dir $.Page.File.Path) }}
     <div class="article-card">
       <div class="article-card-content">
         <h3 class="article-card-title">
@@ -100,8 +102,6 @@
             </svg>
             {{ .Date.Format "2006-01-02" }}
           </span>
-          
-          <span class="article-card-reading-time">{{ .ReadingTime }} min read</span>
         </div>
         
         {{ if .Description }}
@@ -111,5 +111,6 @@
         {{ end }}
       </div>
     </div>
+    {{ end }}
   {{ end }}
 </div> 
