@@ -76,35 +76,35 @@ params:
   # 導航欄下拉選單設定
   navbarBackend:
     - name: "Django和後端技術"
-      url: "/Cwebsite/categories/backend/"
+      url: "/categories/backend/"
     - name: "API 設計"
-      url: "/Cwebsite/categories/api-design/"
+      url: "/categories/api-design/"
     - name: "資料庫優化"
-      url: "/Cwebsite/categories/database/"
+      url: "/ategories/database/"
     
   navbarCourses:
     - name: "Django 網站開發"
-      url: "/Cwebsite/courses/django/"
+      url: "/courses/django/"
     - name: "資料結構與演算法"
-      url: "/Cwebsite/courses/leetcode/"
+      url: "/courses/leetcode/"
 
   leetcode:
     - name: "全部"
-      url: "/Cwebsite/categories/leetcode/"
+      url: "/categories/leetcode/"
     - name: "HashTable(雜湊表)"
-      url: "/Cwebsite/categories/leetcode/hashtable/"
+      url: "/categories/leetcode/hashtable/"
     - name: "LinkedList(鏈表)"
-      url: "/Cwebsite/categories/leetcode/linkedlist/"
+      url: "/categories/leetcode/linkedlist/"
     - name: "Stack(堆疊)"
-      url: "/Cwebsite/categories/leetcode/stack/"
+      url: "/categories/leetcode/stack/"
     - name: "Queue(佇列)"
-      url: "/Cwebsite/categories/leetcode/queue/"
+      url: "/categories/leetcode/queue/"
     - name: "Tree(樹)"
-      url: "/Cwebsite/categories/leetcode/tree/"
+      url: "/categories/leetcode/tree/"
     - name: "Graph(圖)"
-      url: "/Cwebsite/categories/leetcode/graph/"
+      url: "/categories/leetcode/graph/"
     - name: "Dynamic Programming(動態規劃)"
-      url: "/Cwebsite/categories/leetcode/dynamic-programming/"
+      url: "/categories/leetcode/dynamic-programming/"
     
     
   defaultTheme: auto
