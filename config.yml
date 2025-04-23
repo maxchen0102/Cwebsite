@@ -1,5 +1,5 @@
 # the URL is for the github pages, because it will generate the route for every page of the website
-baseURL: "https://maxchen0102.github.io/Cwebsite/"  
+baseURL: "https://leetcode666.com/"  
 
 # Google Analytics ID (G-XXXXXXXXXX 或 UA-XXXXXXXXX-X)
 googleAnalytics: "G-QNR8ZBX7XN"
