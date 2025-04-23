@@ -1,5 +1,3 @@
-
-
 # the URL is for the github pages, because it will generate the route for every page of the website
 baseURL: "https://maxchen0102.github.io/Cwebsite/"  
 
@@ -11,6 +9,7 @@ copyright: "© 2020-2025 程式思維 | All Rights Reserved."
 pagination:
   pagerSize: 10 # the number of posts to show on the homepage
 theme: [hugo-PaperMod]
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -44,6 +43,12 @@ languages:
         - name: Tags
           url: /tags/
           weight: 10
+        - name: Leetcode
+          url: /tags/leetcode/
+          weight: 15
+        - name: Django
+          url: /tags/django/
+          weight: 20
         - name: WiKi
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
@@ -55,9 +60,24 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" # the description of the website for SEO
+  author: chirs
   # author: ["Me", "You"] # multiple authors
+
+  # Footer 設定
+  footer:
+    hideFooter: false
+    hideCopyright: false
+    showSocialLinks: true
+    text: "感謝訪問我的網站，希望您能找到有用的信息。"
+    customLinks:
+      - name: "隱私政策"
+        url: "/privacy-policy/"
+      - name: "服務條款"
+        url: "/terms-of-service/" 
+      - name: "聯絡我們"
+        url: "/contact/"
+    beian: "粵ICP備XXXXXXXX號"
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -75,6 +95,7 @@ params:
   # comments: false
   images: ["images/papermod-cover.png"]
 
+  # show the profile of the website rather than the default one
   profileMode:
     enabled: false
     title: PaperMod
