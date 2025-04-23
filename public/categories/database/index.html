@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/Cwebsite/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Cwebsite/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>資料庫優化 | Chris&#39;s Website</title>
 <meta name="keywords" content="">
-<meta name="description" content="關於資料庫優化與設計的文章集合">
+<meta name="description" content="資料庫設計、優化與管理相關技術">
 <meta name="author" content="chirs">
-<link rel="canonical" href="http://localhost:1313/Cwebsite/categories/database/">
+<link rel="canonical" href="https://leetcode666.com/categories/database/">
 <meta name="google-site-verification" content="XYZabc">
-<link crossorigin="anonymous" href="/Cwebsite/assets/css/stylesheet.4c6627b3ba5233a911ed977febcd4f45dbcab6817f0fdada75505e0b0c938a60.css" integrity="sha256-TGYns7pSM6kR7Zd/681PRdvKtoF/D9radVBeCwyTimA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.4c6627b3ba5233a911ed977febcd4f45dbcab6817f0fdada75505e0b0c938a60.css" integrity="sha256-TGYns7pSM6kR7Zd/681PRdvKtoF/D9radVBeCwyTimA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://leetcode666.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://leetcode666.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://leetcode666.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://leetcode666.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://leetcode666.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/Cwebsite/categories/database/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/Cwebsite/categories/database/">
+<link rel="alternate" type="application/rss+xml" href="https://leetcode666.com/categories/database/index.xml">
+<link rel="alternate" hreflang="en" href="https://leetcode666.com/categories/database/">
 <noscript>
     <style>
         #theme-toggle,
@@ -71,51 +71,54 @@
           gtag('js', new Date());
           gtag('config', 'G-QNR8ZBX7XN');
         }
-      </script><meta property="og:url" content="http://localhost:1313/Cwebsite/categories/database/">
+      </script><meta property="og:url" content="https://leetcode666.com/categories/database/">
   <meta property="og:site_name" content="Chris&#39;s Website">
   <meta property="og:title" content="資料庫優化">
-  <meta property="og:description" content="關於資料庫優化與設計的文章集合">
+  <meta property="og:description" content="資料庫設計、優化與管理相關技術">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
-      <meta property="og:image" content="http://localhost:1313/Cwebsite/images/papermod-cover.png">
+      <meta property="og:image" content="https://leetcode666.com/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/Cwebsite/images/papermod-cover.png">
+<meta name="twitter:image" content="https://leetcode666.com/images/papermod-cover.png">
 <meta name="twitter:title" content="資料庫優化">
-<meta name="twitter:description" content="關於資料庫優化與設計的文章集合">
+<meta name="twitter:description" content="資料庫設計、優化與管理相關技術">
 
 </head>
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-</script>
-
-<header class="custom-header">
+<body class="list" id="top"><header class="custom-header">
     <div class="nav-container">
         <div class="logo-area">
                     
-                <a href="http://localhost:1313/Cwebsite/">
-                    <img src="http://localhost:1313/Cwebsite/images/logo_hu_36d5b57208cd85e6.png" alt="Chris&#39;s Website" class="site-logo">
-                </a><a href="http://localhost:1313/Cwebsite/" class="site-title">Chris的技術筆記</a>
+                <a href="https://leetcode666.com/">
+                    <img src="https://leetcode666.com/images/logo_hu_36d5b57208cd85e6.png" alt="Chris&#39;s Website" class="site-logo">
+                </a><a href="https://leetcode666.com/" class="site-title">Chris的技術筆記</a>
         </div>
 
         <nav class="main-nav">
             <ul class="nav-items">
                 
                 <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Leetcode刷題專區 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/">全部</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/hashtable/">HashTable(雜湊表)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/linkedlist/">LinkedList(鏈表)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/stack/">Stack(堆疊)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/queue/">Queue(佇列)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/tree/">Tree(樹)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/graph/">Graph(圖)</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/leetcode/dynamic-programming/">Dynamic Programming(動態規劃)</a></li>
+                    </ul>
+                </li>
+
+
+                
+                <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle">後端技術專欄 <span class="caret">▼</span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="http://localhost:1313/tags/leetcode/">後端架構</a></li>
-                        <li><a href="http://localhost:1313/categories/api-design/">API 設計</a></li>
-                        <li><a href="http://localhost:1313/categories/database/">資料庫優化</a></li>
-                        <li><a href="http://localhost:1313/categories/server-management/">伺服器管理</a></li>
-                        <li><a href="http://localhost:1313/categories/devops/">DevOps 實踐</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/backend/">Django和後端技術</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/api-design/">API 設計</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/categories/database/">資料庫優化</a></li>
                     </ul>
                 </li>
                 
@@ -123,19 +126,16 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle">線上課程 <span class="caret">▼</span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="http://localhost:1313/courses/python/">Python 入門到進階</a></li>
-                        <li><a href="http://localhost:1313/courses/django/">Django 網站開發</a></li>
-                        <li><a href="http://localhost:1313/courses/api/">RESTful API 實戰</a></li>
-                        <li><a href="http://localhost:1313/courses/database/">資料庫設計與優化</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/courses/django/">Django 網站開發</a></li>
+                        <li><a href="https://leetcode666.com/Cwebsite/courses/leetcode/">資料結構與演算法</a></li>
                     </ul>
                 </li>
+
+
                 
                 
                 <li class="nav-item">
-                    <a href="/posts/">所有文章</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/about/">關於我</a>
+                    <a href="https://leetcode666.com/about/">關於我</a>
                 </li>
             </ul>
         </nav>
@@ -151,36 +151,14 @@
             
             
             <a href="/subscribe/" class="nav-subscribe">電子報訂閱</a>
-            
-            
-            <button id="theme-toggle" accesskey="t" title="切換主題 (Alt + T)" aria-label="Toggle theme">
-                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="5"></circle>
-                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-            </button>
         </div>
     </div>
 </header> 
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/Cwebsite/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/Cwebsite/categories/">Categories</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://leetcode666.com/">Home</a>&nbsp;»&nbsp;<a href="https://leetcode666.com/categories/">Categories</a></div>
   <h1>
     資料庫優化
-    <a href="/Cwebsite/categories/database/index.xml" title="RSS" aria-label="RSS">
+    <a href="/categories/database/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -190,10 +168,132 @@
     </a>
   </h1>
   <div class="post-description">
-    關於資料庫優化與設計的文章集合
+    資料庫設計、優化與管理相關技術
   </div>
 </header>
-<div class="post-content"><p>這裡是所有與資料庫相關的文章。</p>
+<div class="post-content">
+<style>
+  .article-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .article-card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: block;
+    width: 100%;
+  }
+  
+  .dark .article-card {
+    background: #252525;
+    border-color: #333;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card-content {
+    padding: 1rem;
+  }
+  
+  .article-card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .article-card-title a {
+    color: #eaeaea;
+  }
+  
+  .article-card-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article-card-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .dark .article-card-meta {
+    color: #aaa;
+  }
+  
+  .article-card-date {
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .article-card-date svg {
+    margin-right: 0.5rem;
+  }
+  
+  .article-card-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .dark .article-card-description {
+    color: #bbb;
+  }
+</style>
+
+<div class="article-cards">
+  
+  
+    
+  
+    
+  
+    
+  
+    
+    <div class="article-card">
+      <div class="article-card-content">
+        <h3 class="article-card-title">
+          <a href="https://leetcode666.com/categories/database/optimization/">資料庫效能優化全指南</a>
+        </h3>
+        <div class="article-card-meta">
+          <span class="article-card-date">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            2023-08-18
+          </span>
+        </div>
+        
+        
+          <div class="article-card-description">從查詢優化、索引設計到系統配置，全面提升資料庫效能的實用技巧</div>
+        
+      </div>
+    </div>
+    
+  
+    
+  
+</div> 
+
 
 
 </div>
@@ -201,7 +301,7 @@
     
 <footer class="footer">
         <span>© 2020-2025 程式思維 | All Rights Reserved.</span>
-        感謝訪問我的網站，希望您能找到有用的信息。
+        感謝訪問我的技術網站，希望能幫助你搞定leetcode。
     <div class="footer-social-links">
             <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer" title="Github">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -219,14 +319,6 @@
 </svg>
             </a>
     </div>
-    <div class="footer-links">
-            <a href="/privacy-policy/">隱私政策</a>
-            <a href="/terms-of-service/">服務條款</a>
-            <a href="/contact/">聯絡我們</a>
-    </div>
-    <div class="footer-beian">
-        <a href="https://beian.miit.gov.cn/" target="_blank">粵ICP備XXXXXXXX號</a>
-    </div>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
@@ -237,7 +329,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     function isMobile() {
-        return window.innerWidth <= 960;
+        return window.innerWidth <= 960; 
     }
     
     
@@ -314,18 +406,6 @@ document.addEventListener('DOMContentLoaded', function() {
             mybutton.style.opacity = "0";
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script> 
 </body>

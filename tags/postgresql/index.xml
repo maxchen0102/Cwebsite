@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PostgreSQL on Chris&#39;s Website</title>
+    <link>https://leetcode666.com/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on Chris&#39;s Website</description>
+    <image>
+      <title>Chris&#39;s Website</title>
+      <url>https://leetcode666.com/images/papermod-cover.png</url>
+      <link>https://leetcode666.com/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.146.7</generator>
+    <language>en</language>
+    <copyright>2020-2025 程式思維 | All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leetcode666.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>資料庫效能優化全指南</title>
+      <link>https://leetcode666.com/categories/database/optimization/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://leetcode666.com/categories/database/optimization/</guid>
+      <description>從查詢優化、索引設計到系統配置，全面提升資料庫效能的實用技巧</description>
+    </item>
+  </channel>
+</rss>

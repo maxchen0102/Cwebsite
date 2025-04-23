@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Api on Chris&#39;s Website</title>
-    <link>https://maxchen0102.github.io/Cwebsite/tags/api/</link>
+    <link>https://leetcode666.com/tags/api/</link>
     <description>Recent content in Api on Chris&#39;s Website</description>
     <image>
       <title>Chris&#39;s Website</title>
-      <url>https://maxchen0102.github.io/Cwebsite/images/papermod-cover.png</url>
-      <link>https://maxchen0102.github.io/Cwebsite/images/papermod-cover.png</link>
+      <url>https://leetcode666.com/images/papermod-cover.png</url>
+      <link>https://leetcode666.com/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.146.7</generator>
     <language>en</language>
     <copyright>2020-2025 程式思維 | All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 18 Oct 2023 14:30:00 +0800</lastBuildDate>
-    <atom:link href="https://maxchen0102.github.io/Cwebsite/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leetcode666.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RESTful API 設計最佳實踐</title>
-      <link>https://maxchen0102.github.io/Cwebsite/posts/restful-api-design/</link>
+      <link>https://leetcode666.com/posts/restful-api-design/</link>
       <pubDate>Wed, 18 Oct 2023 14:30:00 +0800</pubDate>
-      <guid>https://maxchen0102.github.io/Cwebsite/posts/restful-api-design/</guid>
+      <guid>https://leetcode666.com/posts/restful-api-design/</guid>
       <description>&lt;h1 id=&#34;restful-api-設計最佳實踐&#34;&gt;RESTful API 設計最佳實踐&lt;/h1&gt;
 &lt;p&gt;良好的 API 設計可以提高開發效率、改善用戶體驗並減少錯誤。本文將分享一些 RESTful API 設計的最佳實踐。&lt;/p&gt;
 &lt;h2 id=&#34;url-結構設計&#34;&gt;URL 結構設計&lt;/h2&gt;
