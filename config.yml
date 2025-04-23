@@ -69,42 +69,47 @@ params:
     hideFooter: false
     hideCopyright: false
     showSocialLinks: true
-    text: "感謝訪問我的網站，希望您能找到有用的信息。"
-    customLinks:
-      - name: "隱私政策"
-        url: "/privacy-policy/"
-      - name: "服務條款"
-        url: "/terms-of-service/" 
-      - name: "聯絡我們"
-        url: "/contact/"
-    beian: "粵ICP備XXXXXXXX號"
+    text: "感謝訪問我的技術網站，希望能幫助你搞定leetcode。"
 
   # 導航欄下拉選單設定
   navbarBackend:
-    - name: "後端架構"
-      url: "/posts/my-first-post/"
+    - name: "Django後端知識"
+      url: "/Cwebsite/posts/my-first-post/"
     - name: "API 設計"
-      url: "/categories/api-design/"
+      url: "/Cwebsite/categories/api-design/"
     - name: "資料庫優化"
-      url: "/categories/database/"
-    - name: "伺服器管理"
-      url: "/categories/server-management/"
-    - name: "DevOps 實踐"
-      url: "/categories/devops/"
+      url: "/Cwebsite/categories/database/"
+    - name: "Leetcode刷題"
+      url: "/Cwebsite/categories/server-management/"
     
   navbarCourses:
-    - name: "Python 入門到進階"
-      url: "/courses/python/"
     - name: "Django 網站開發"
-      url: "/courses/django/"
-    - name: "RESTful API 實戰"
-      url: "/courses/api/"
-    - name: "資料庫設計與優化"
-      url: "/courses/database/"
+      url: "/Cwebsite/courses/django/"
+    - name: "資料結構與演算法"
+      url: "/Cwebsite/courses/leetcode/"
+
+  leetcode:
+    - name: "全部"
+      url: "/Cwebsite/categories/leetcode/"
+    - name: "HashTable(雜湊表)"
+      url: "/Cwebsite/categories/leetcode/hashtable/"
+    - name: "LinkedList(鏈表)"
+      url: "/Cwebsite/categories/leetcode/linkedlist/"
+    - name: "Stack(堆疊)"
+      url: "/Cwebsite/categories/leetcode/stack/"
+    - name: "Queue(佇列)"
+      url: "/Cwebsite/categories/leetcode/queue/"
+    - name: "Tree(樹)"
+      url: "/Cwebsite/categories/leetcode/tree/"
+    - name: "Graph(圖)"
+      url: "/Cwebsite/categories/leetcode/graph/"
+    - name: "Dynamic Programming(動態規劃)"
+      url: "/Cwebsite/categories/leetcode/dynamic-programming/"
+    
     
   defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
+  disableThemeToggle: true
+  ShowShareButtons: False
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
