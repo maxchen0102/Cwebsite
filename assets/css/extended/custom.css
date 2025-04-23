@@ -67,3 +67,244 @@ iframe {
 .footer-beian a:hover {
     text-decoration: underline;
 }
+
+/* 自定義導航欄樣式 */
+.custom-header {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2c2c2c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.site-logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00cc99;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.logo-letter {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item a {
+    display: block;
+    padding: 8px 12px;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ffffff;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.caret {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #252525;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    z-index: 100;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #cccccc;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+.search-button:hover {
+    color: #ffffff;
+}
+
+.nav-subscribe {
+    display: block;
+    background-color: #00cc99;
+    color: #000 !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.nav-subscribe:hover {
+    background-color: #00e6ab;
+}
+
+/* 下拉選單 JavaScript */
+@media (hover: hover) {
+    /* 只在支持 hover 的設備上啟用 */
+    .dropdown:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+/* 移動裝置導航欄 */
+@media screen and (max-width: 960px) {
+    .nav-container {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 15px 20px;
+    }
+    
+    .logo-area {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    
+    .main-nav {
+        order: 3;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .nav-items {
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
+    
+    .nav-right {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+        background-color: #333;
+    }
+    
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-toggle {
+        justify-content: center;
+    }
+    
+    .nav-item a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,46 @@
+{{- /* Footer custom content area start */ -}}
+{{- /* Insert any custom code or scripts here */ -}}
+
+<!-- 導航欄下拉選單的 JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 檢查是否為移動設備
+    function isMobile() {
+        return window.innerWidth <= 960;
+    }
+    
+    // 初始化下拉選單
+    function initDropdowns() {
+        if (isMobile()) {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    
+                    // 關閉其他已打開的下拉選單
+                    document.querySelectorAll('.nav-item.dropdown.active').forEach(item => {
+                        if (item !== parent) {
+                            item.classList.remove('active');
+                        }
+                    });
+                    
+                    // 切換當前下拉選單
+                    parent.classList.toggle('active');
+                });
+            });
+        }
+    }
+    
+    // 初始化
+    initDropdowns();
+    
+    // 視窗大小變化時重新初始化
+    window.addEventListener('resize', function() {
+        initDropdowns();
+    });
+});
+</script>
+
+{{- /* Footer custom content area end */ -}} 

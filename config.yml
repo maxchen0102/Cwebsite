@@ -79,6 +79,29 @@ params:
         url: "/contact/"
     beian: "粵ICP備XXXXXXXX號"
 
+  # 導航欄下拉選單設定
+  navbarBackend:
+    - name: "後端架構"
+      url: "/categories/backend-architecture/"
+    - name: "API 設計"
+      url: "/categories/api-design/"
+    - name: "資料庫優化"
+      url: "/categories/database/"
+    - name: "伺服器管理"
+      url: "/categories/server-management/"
+    - name: "DevOps 實踐"
+      url: "/categories/devops/"
+    
+  navbarCourses:
+    - name: "Python 入門到進階"
+      url: "/courses/python/"
+    - name: "Django 網站開發"
+      url: "/courses/django/"
+    - name: "RESTful API 實戰"
+      url: "/courses/api/"
+    - name: "資料庫設計與優化"
+      url: "/courses/database/"
+    
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
@@ -128,12 +151,11 @@ params:
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
       
-
-  # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
+  label:
+    # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+    text: "Chris"
+    icon: "images/logo.png"
+    iconHeight: 50
 
 
   analytics:
