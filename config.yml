@@ -7,7 +7,8 @@ baseURL: "https://maxchen0102.github.io/Cwebsite/"
 # the URL is for the vercel app
 # baseURL: "https://cwebsite-pl5wskk8g-chris-projects-ca2187d7.vercel.app/"
 
-
+# Google Analytics ID (G-XXXXXXXXXX 或 UA-XXXXXXXXX-X)
+googleAnalytics: "G-QNR8ZBX7XN"
 
 title: PaperMod
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
@@ -192,6 +193,11 @@ params:
   # analytics:
   #     google:
   #         SiteVerificationTag: "XYZabc"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc" # 網站驗證標籤（如果需要）
+      # 這裡不需要填寫測量 ID，已經在頂層 googleAnalytics 參數中設置了
 
   assets:
     disableHLJS: true
