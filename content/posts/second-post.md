@@ -1,6 +1,6 @@
 ---
-title: "我的第二篇文章"
-date: 2023-07-23T16:15:00+08:00
+title: "Leetcode"
+date: 2025-04-23T14:57:00+0800
 draft: false
 description: "這是我的第二篇博客文章"
 tags: ["博客", "Hugo"]
