@@ -43,4 +43,8 @@ rm -rf ../_site-temp
 echo "Switching back to master branch..."
 git checkout master
 
+# Pull latest changes from master branch
+echo "Pulling latest changes from master branch..."
+git pull origin master
+
 echo "Deployment completed successfully!" 
