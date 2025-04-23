@@ -64,6 +64,8 @@ params:
   author: chirs
   # author: ["Me", "You"] # multiple authors
 
+  ignoreLogs: ['warning-partial-superfluous-prefix']
+
   # Footer 設定
   footer:
     hideFooter: false
