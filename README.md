@@ -25,3 +25,13 @@ git push origin gh-pages
 
 # 刪除暫存資料夾
 rm -rf ../_site-temp
+
+
+
+# 本地開發無法啟動 解決方法 ->重新安裝papermod主題
+rm -rf themes/hugo-PaperMod && git clone https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod
+
+# 重新啟動hugo server
+hugo server -D
+
+
