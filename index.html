@@ -1,1 +1,951 @@
- 
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.146.7"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Chris&#39;s Website</title>
+
+<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+<meta name="author" content="chirs">
+<link rel="canonical" href="https://leetcode666.com/">
+<meta name="google-site-verification" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.4c6627b3ba5233a911ed977febcd4f45dbcab6817f0fdada75505e0b0c938a60.css" integrity="sha256-TGYns7pSM6kR7Zd/681PRdvKtoF/D9radVBeCwyTimA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://leetcode666.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://leetcode666.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://leetcode666.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://leetcode666.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://leetcode666.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://leetcode666.com/index.xml">
+<link rel="alternate" type="application/json" href="https://leetcode666.com/index.json">
+<link rel="alternate" hreflang="en" href="https://leetcode666.com/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNR8ZBX7XN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QNR8ZBX7XN');
+        }
+      </script><meta property="og:url" content="https://leetcode666.com/">
+  <meta property="og:site_name" content="Chris&#39;s Website">
+  <meta property="og:title" content="Chris&#39;s Website">
+  <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://leetcode666.com/images/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://leetcode666.com/images/papermod-cover.png">
+<meta name="twitter:title" content="Chris&#39;s Website">
+<meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Chris's Website",
+  "url": "https://leetcode666.com/",
+  "description": "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod",
+  "logo": "https://leetcode666.com/favicon.ico",
+  "sameAs": [
+      "https://github.com/adityatelange/hugo-PaperMod", "https://discord.gg/ahpmTvhVmp"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top"><header class="custom-header">
+    <div class="nav-container">
+        <div class="logo-area">
+                    
+                <a href="https://leetcode666.com/">
+                    <img src="https://leetcode666.com/images/logo_hu_36d5b57208cd85e6.png" alt="Chris&#39;s Website" class="site-logo">
+                </a><a href="https://leetcode666.com/" class="site-title">Chris的技術筆記</a>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav-items">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Leetcode刷題專區 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/categories/leetcode/">全部</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/hashtable/">HashTable(雜湊表)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/linkedlist/">LinkedList(鏈表)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/stack/">Stack(堆疊)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/queue/">Queue(佇列)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/tree/">Tree(樹)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/graph/">Graph(圖)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/dynamic-programming/">Dynamic Programming(動態規劃)</a></li>
+                    </ul>
+                </li>
+
+
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">後端技術專欄 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/categories/backend/">Django和後端技術</a></li>
+                        <li><a href="https://leetcode666.com/categories/api-design/">API 設計</a></li>
+                        <li><a href="https://leetcode666.com/ategories/database/">資料庫優化</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">線上課程 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/courses/django/">Django 網站開發</a></li>
+                        <li><a href="https://leetcode666.com/courses/leetcode/">資料結構與演算法</a></li>
+                    </ul>
+                </li>
+
+
+                
+                
+                <li class="nav-item">
+                    <a href="https://leetcode666.com/about/">關於我</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="nav-right">
+            
+            <a href="/search/" title="搜尋 (Alt + /)" class="search-button" accesskey="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </a>
+            
+            
+            <a href="/subscribe/" class="nav-subscribe">電子報訂閱</a>
+        </div>
+    </div>
+</header> 
+<main class="main">
+<main class="fullscreen-main">
+  
+  <section class="hero-fullscreen">
+    <div class="hero-content">
+      <h1 class="hero-title">程式思維</h1>
+      <h2 class="hero-subtitle">探索程式開發的無限可能</h2>
+      <div class="hero-description">從資料結構到後端架構，由淺入深掌握核心技術</div>
+      <div class="cta-buttons">
+        <a href="/Cwebsite/categories/backend/" class="cta-button primary">後端開發</a>
+        <a href="/Cwebsite/categories/leetcode/" class="cta-button secondary">演算法解析</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>向下捲動探索更多</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  
+  <section class="feature-section">
+    <div class="feature-card database">
+      <div class="feature-content">
+        <h2>資料庫優化</h2>
+        <p>從查詢優化到系統配置，全方位提升資料庫性能</p>
+        <a href="/Cwebsite/categories/database/" class="feature-link">深入了解</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="latest-articles">
+    <div class="section-wrapper">
+      <h2 class="section-heading">最新技術文章</h2>
+      <div class="article-grid">
+        
+        <article class="article-card">
+          <div class="article-meta">
+            <time datetime="2025-04-23">2025-04-23</time>
+            <span class="reading-time">2 min</span>
+          </div>
+          <h3 class="article-title"><a href="https://leetcode666.com/categories/leetcode/hashtable/hashtable/">哈希表（Hash Table）：高效能的鍵值對數據結構</a></h3>
+          <p class="article-excerpt">探索雜湊表的進階應用技巧，掌握解決複雜 LeetCode 問題的策略，提升您的算法解題能力。...</p>
+          <a href="https://leetcode666.com/categories/leetcode/hashtable/hashtable/" class="read-more">閱讀全文 →</a>
+        </article>
+        
+        <article class="article-card">
+          <div class="article-meta">
+            <time datetime="2025-04-23">2025-04-23</time>
+            <span class="reading-time">3 min</span>
+          </div>
+          <h3 class="article-title"><a href="https://leetcode666.com/categories/leetcode/hashtable/advanced-hashtable/">雜湊表進階應用 - 解決複雜 LeetCode 問題</a></h3>
+          <p class="article-excerpt">探索雜湊表的進階應用技巧，掌握解決複雜 LeetCode 問題的策略，提升您的算法解題能力。...</p>
+          <a href="https://leetcode666.com/categories/leetcode/hashtable/advanced-hashtable/" class="read-more">閱讀全文 →</a>
+        </article>
+        
+        <article class="article-card">
+          <div class="article-meta">
+            <time datetime="2023-10-18">2023-10-18</time>
+            <span class="reading-time">1 min</span>
+          </div>
+          <h3 class="article-title"><a href="https://leetcode666.com/posts/restful-api-design/">RESTful API 設計最佳實踐</a></h3>
+          <p class="article-excerpt">&lt;h1 id=&#34;restful-api-設計最佳實踐&#34;&gt;RESTful API 設計最佳實踐&lt;/h1&gt;
+&lt;p&gt;良好的 API 設計可以提高開發效率、改善用戶體驗並減少錯誤。本文將分享一些 RESTful API 設計的最佳實踐。&lt;/p&gt;
+&lt;h2 id=&#34;url-結構設計&#34;&gt;URL 結構設計&lt;/h2&gt;...</p>
+          <a href="https://leetcode666.com/posts/restful-api-design/" class="read-more">閱讀全文 →</a>
+        </article>
+        
+      </div>
+      <div class="section-footer">
+        <a href="/Cwebsite/posts/" class="view-all">查看所有文章</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="category-section">
+    <div class="section-wrapper">
+      <h2 class="section-heading">專業領域</h2>
+      <div class="category-grid">
+        <div class="category-item backend">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+          </div>
+          <h3>後端開發</h3>
+          <p>探索Django、Flask與API設計的最佳實踐</p>
+          <a href="/Cwebsite/categories/backend/" class="category-link">瀏覽文章</a>
+        </div>
+
+        <div class="category-item database">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+          </div>
+          <h3>資料庫優化</h3>
+          <p>提升查詢效能、設計索引與系統調優技巧</p>
+          <a href="/Cwebsite/categories/database/" class="category-link">瀏覽文章</a>
+        </div>
+
+        <div class="category-item leetcode">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>
+          <h3>LeetCode解題</h3>
+          <p>數據結構與演算法的實際應用與解析</p>
+          <a href="/Cwebsite/categories/leetcode/" class="category-link">瀏覽文章</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<style>
+   
+  :root {
+    --gradient-bg: linear-gradient(135deg, #000000, #121212);
+    --accent-color: #0071e3;
+    --accent-hover: #0077ed;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --card-bg: rgba(40, 40, 40, 0.5);
+    --card-border: 1px solid rgba(255, 255, 255, 0.1);
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+   
+  body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: var(--text-primary);
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .fullscreen-main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+   
+  .hero-fullscreen {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(180deg, #101316, #161B20);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .hero-fullscreen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(20, 80, 150, 0.08) 0%, transparent 70%);
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .hero-title {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: #fff;
+    line-height: 1.1;
+  }
+  
+  .hero-subtitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    color: var(--text-primary);
+  }
+  
+  .hero-description {
+    font-size: 1.3rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 2rem auto 0;
+  }
+  
+  .cta-button {
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button.primary {
+    background-color: #007AFF;
+    color: white;
+  }
+  
+  .cta-button.primary:hover {
+    background-color: #0063CC;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 113, 227, 0.4);
+  }
+  
+  .cta-button.secondary {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(10px);
+  }
+  
+  .cta-button.secondary:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    animation: bounce 2s infinite;
+  }
+  
+  .scroll-indicator svg {
+    margin-top: 0.5rem;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0) translateX(-50%);}
+    40% {transform: translateY(-10px) translateX(-50%);}
+    60% {transform: translateY(-5px) translateX(-50%);}
+  }
+  
+   
+  .section-wrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+   
+  .feature-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #0B0D10;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .feature-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(0, 113, 227, 0.08) 0%, transparent 70%);
+    z-index: 0;
+  }
+  
+  .feature-card {
+    position: relative;
+    overflow: hidden;
+    padding: 8rem 3rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    z-index: 1;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  
+  .feature-card.database {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+  }
+  
+  .feature-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: -1;
+  }
+  
+  .feature-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feature-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .feature-content p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .feature-link {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+  }
+  
+  .feature-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+   
+  .latest-articles {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #101316;
+    position: relative;
+    text-align: center;
+  }
+  
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .article-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    border: var(--card-border);
+    text-align: left;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+  }
+  
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .article-title {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  .article-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .article-title a:hover {
+    color: var(--accent-color);
+  }
+  
+  .article-excerpt {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    flex-grow: 1;
+  }
+  
+  .read-more {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    align-self: flex-start;
+  }
+  
+  .read-more:hover {
+    color: var(--accent-hover);
+    transform: translateX(5px);
+  }
+  
+  .section-footer {
+    text-align: center;
+  }
+  
+  .view-all {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .view-all:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+  
+   
+  .category-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0B0D10;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .category-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(0, 113, 227, 0.08) 0%, transparent 70%);
+    z-index: 0;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .category-item {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 3rem 2.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: var(--card-border);
+  }
+  
+  .category-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+  }
+  
+  .category-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: var(--accent-color);
+  }
+  
+  .category-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: var(--text-primary);
+    text-align: center;
+  }
+  
+  .category-item p {
+    color: var(--text-secondary);
+    margin-bottom: 1.8rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .category-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .category-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+  }
+  
+  .category-link:hover::after {
+    width: 100%;
+  }
+  
+   
+  @media (max-width: 1200px) {
+    .hero-title {
+      font-size: 5rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 2.2rem;
+    }
+    
+    .feature-content h2 {
+      font-size: 3rem;
+    }
+    
+    .section-heading {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 3.5rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.8rem;
+    }
+    
+    .hero-description {
+      font-size: 1.1rem;
+    }
+    
+    .feature-card {
+      padding: 5rem 2rem;
+    }
+    
+    .feature-content h2 {
+      font-size: 2.5rem;
+    }
+    
+    .article-grid, .category-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .cta-button, .feature-link, .view-all {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 2.8rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.5rem;
+    }
+    
+    .hero-description {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+    
+    .hero-fullscreen {
+      min-height: 100vh;
+    }
+    
+    .cta-buttons {
+      flex-direction: column;
+      width: 100%;
+      padding: 0 2rem;
+    }
+    
+    .cta-button {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .feature-content h2 {
+      font-size: 2rem;
+    }
+    
+    .feature-content p {
+      font-size: 1.1rem;
+      padding: 0 1rem;
+    }
+    
+    .article-card, .category-item {
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>
+
+    </main>
+    
+<footer class="footer">
+        <span>© 2020-2025 程式思維 | All Rights Reserved.</span>
+        感謝訪問我的技術網站，希望能幫助你搞定leetcode。
+    <div class="footer-social-links">
+            <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer" title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+            </a>
+            <a href="https://discord.gg/ahpmTvhVmp" target="_blank" rel="noopener noreferrer" title="Discord">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" fill="currentColor" stroke="none" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z" />
+</svg>
+            </a>
+    </div>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    function isMobile() {
+        return window.innerWidth <= 960; 
+    }
+    
+    
+    function initDropdowns() {
+        if (isMobile()) {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    
+                    
+                    document.querySelectorAll('.nav-item.dropdown.active').forEach(item => {
+                        if (item !== parent) {
+                            item.classList.remove('active');
+                        }
+                    });
+                    
+                    
+                    parent.classList.toggle('active');
+                });
+            });
+        }
+    }
+    
+    
+    initDropdowns();
+    
+    
+    window.addEventListener('resize', function() {
+        initDropdowns();
+    });
+});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script> 
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Backend-Architecture | Chris&#39;s Website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+<meta name="author" content="chirs">
+<link rel="canonical" href="https://leetcode666.com/categories/backend-architecture/">
+<meta name="google-site-verification" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.4c6627b3ba5233a911ed977febcd4f45dbcab6817f0fdada75505e0b0c938a60.css" integrity="sha256-TGYns7pSM6kR7Zd/681PRdvKtoF/D9radVBeCwyTimA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://leetcode666.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://leetcode666.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://leetcode666.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://leetcode666.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://leetcode666.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://leetcode666.com/categories/backend-architecture/index.xml">
+<link rel="alternate" hreflang="en" href="https://leetcode666.com/categories/backend-architecture/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNR8ZBX7XN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QNR8ZBX7XN');
+        }
+      </script><meta property="og:url" content="https://leetcode666.com/categories/backend-architecture/">
+  <meta property="og:site_name" content="Chris&#39;s Website">
+  <meta property="og:title" content="Backend-Architecture">
+  <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://leetcode666.com/images/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://leetcode666.com/images/papermod-cover.png">
+<meta name="twitter:title" content="Backend-Architecture">
+<meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+
+</head>
+
+<body class="list" id="top"><header class="custom-header">
+    <div class="nav-container">
+        <div class="logo-area">
+                    
+                <a href="https://leetcode666.com/">
+                    <img src="https://leetcode666.com/images/logo_hu_36d5b57208cd85e6.png" alt="Chris&#39;s Website" class="site-logo">
+                </a><a href="https://leetcode666.com/" class="site-title">Chris的技術筆記</a>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav-items">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Leetcode刷題專區 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/categories/leetcode/">全部</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/hashtable/">HashTable(雜湊表)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/linkedlist/">LinkedList(鏈表)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/stack/">Stack(堆疊)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/queue/">Queue(佇列)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/tree/">Tree(樹)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/graph/">Graph(圖)</a></li>
+                        <li><a href="https://leetcode666.com/categories/leetcode/dynamic-programming/">Dynamic Programming(動態規劃)</a></li>
+                    </ul>
+                </li>
+
+
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">後端技術專欄 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/categories/backend/">Django和後端技術</a></li>
+                        <li><a href="https://leetcode666.com/categories/api-design/">API 設計</a></li>
+                        <li><a href="https://leetcode666.com/ategories/database/">資料庫優化</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">線上課程 <span class="caret">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://leetcode666.com/courses/django/">Django 網站開發</a></li>
+                        <li><a href="https://leetcode666.com/courses/leetcode/">資料結構與演算法</a></li>
+                    </ul>
+                </li>
+
+
+                
+                
+                <li class="nav-item">
+                    <a href="https://leetcode666.com/about/">關於我</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="nav-right">
+            
+            <a href="/search/" title="搜尋 (Alt + /)" class="search-button" accesskey="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </a>
+            
+            
+            <a href="/subscribe/" class="nav-subscribe">電子報訂閱</a>
+        </div>
+    </div>
+</header> 
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://leetcode666.com/">Home</a>&nbsp;»&nbsp;<a href="https://leetcode666.com/categories/">Categories</a></div>
+  <h1>
+    Backend-Architecture
+    <a href="/categories/backend-architecture/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">後端架構設計指南
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>後端架構設計指南 在設計可擴展、高效的後端系統時，有許多關鍵因素需要考慮。本文將介紹現代後端架構的幾個重要原則。
+1. 微服務 vs 單體架構 選擇適合您項目的架構模式取決於多種因素，包括團隊規模、項目複雜度以及業務需求。
+單體架構的優點 開發簡單 部署方便 測試相對容易 微服務架構的優點 服務獨立擴展 技術多樣性 故障隔離 2. 無狀態設計 無狀態設計允許系統更容易擴展：
+# 無狀態 API 示例 @app.route(&#39;/api/user/&lt;user_id&gt;&#39;, methods=[&#39;GET&#39;]) def get_user(user_id): # 從數據庫獲取數據，而不是從本地狀態 user = db.query(User).filter(User.id == user_id).first() return jsonify(user.to_dict()) 3. 緩存策略 適當的緩存實現可以顯著提高性能：
+Redis 用於快速數據存取 CDN 用於靜態資源 本地內存緩存用於高頻訪問數據 結論 好的後端架構應該是可擴展、可維護且安全的。根據項目需求選擇適合的技術堆棧，並遵循行業最佳實踐，將幫助您構建健壯的系統。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-15 10:00:00 +0800 CST'>October 15, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;chirs</footer>
+  <a class="entry-link" aria-label="post link to 後端架構設計指南" href="https://leetcode666.com/posts/backend-architecture-intro/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2020-2025 程式思維 | All Rights Reserved.</span>
+        感謝訪問我的技術網站，希望能幫助你搞定leetcode。
+    <div class="footer-social-links">
+            <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer" title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+            </a>
+            <a href="https://discord.gg/ahpmTvhVmp" target="_blank" rel="noopener noreferrer" title="Discord">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" fill="currentColor" stroke="none" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z" />
+</svg>
+            </a>
+    </div>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    function isMobile() {
+        return window.innerWidth <= 960; 
+    }
+    
+    
+    function initDropdowns() {
+        if (isMobile()) {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    
+                    
+                    document.querySelectorAll('.nav-item.dropdown.active').forEach(item => {
+                        if (item !== parent) {
+                            item.classList.remove('active');
+                        }
+                    });
+                    
+                    
+                    parent.classList.toggle('active');
+                });
+            });
+        }
+    }
+    
+    
+    initDropdowns();
+    
+    
+    window.addEventListener('resize', function() {
+        initDropdowns();
+    });
+});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script> 
+</body>
+
+</html>
