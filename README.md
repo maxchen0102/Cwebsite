@@ -9,7 +9,7 @@ hugo
 # 備份 public
 cp -r public ../_site-temp
 
-# 切到 gh-pages
+# 切到 gh-pages ok
 git checkout gh-pages
 
 # 清除舊內容
