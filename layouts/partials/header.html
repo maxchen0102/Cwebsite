@@ -36,6 +36,26 @@
             <a href="{{ "" | absLangURL }}" class="site-title">Chris的技術筆記</a>
         </div>
 
+        <div class="nav-right">
+            <!-- 搜尋按鈕 -->
+            <a href="/search/" title="搜尋 (Alt + /)" class="search-button" accesskey="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </a>
+            
+            <!-- 電子報訂閱 -->
+            <a href="/subscribe/" class="nav-subscribe">電子報訂閱</a>
+        </div>
+
+        <!-- 漢堡選單按鈕 (僅在移動設備上顯示) -->
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <nav class="main-nav">
             <ul class="nav-items">
                 <!-- Leetcode刷題 下拉選單 -->
@@ -77,18 +97,45 @@
                 </li>
             </ul>
         </nav>
-        
-        <div class="nav-right">
-            <!-- 搜尋按鈕 -->
-            <a href="/search/" title="搜尋 (Alt + /)" class="search-button" accesskey="/">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </a>
-            
-            <!-- 電子報訂閱 -->
-            <a href="/subscribe/" class="nav-subscribe">電子報訂閱</a>
-        </div>
     </div>
-</header> 
+</header>
+
+<!-- 添加JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger-menu');
+        const nav = document.querySelector('.main-nav');
+        
+        // 漢堡選單點擊事件
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+        
+        // 下拉選單切換
+        const dropdowns = document.querySelectorAll('.dropdown-toggle');
+        
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function(e) {
+                e.preventDefault();
+                this.parentNode.classList.toggle('open');
+                
+                // 關閉其他開啟的下拉選單
+                dropdowns.forEach(otherDropdown => {
+                    if (otherDropdown !== this) {
+                        otherDropdown.parentNode.classList.remove('open');
+                    }
+                });
+            });
+        });
+        
+        // 點擊頁面其他地方關閉下拉選單
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.dropdown')) {
+                document.querySelectorAll('.dropdown').forEach(item => {
+                    item.classList.remove('open');
+                });
+            }
+        });
+    });
+</script> 
