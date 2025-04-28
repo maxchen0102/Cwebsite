@@ -31,6 +31,12 @@ rm -rf ../_site-temp
 # 本地開發無法啟動 解決方法 ->重新安裝papermod主題
 rm -rf themes/hugo-PaperMod && git clone https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod
 
+# hugo version should over 0.146 
+brew update
+brew upgrade hugo      # 自動升級到最新版（含 extended）
+hugo version           # 確認 ≥ 0.146.0
+
+
 # 重新啟動hugo server
 hugo server -D
 
