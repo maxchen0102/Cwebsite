@@ -1,5 +1,5 @@
 ---
-title: "哈希表（Hash Table）：高效能的鍵值對數據結構"
+title: "哈希表（Hash Table）[第一篇]：高效能的鍵值對數據結構"
 date: 2025-04-23T14:57:00+0800
 categories: ["leetcode", "資料結構", "演算法"]
 tags: ["hashtable", "雜湊表", "資料結構", "leetcode", "進階技巧"]
