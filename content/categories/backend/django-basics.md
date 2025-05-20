@@ -1,6 +1,6 @@
 ---
 title: "Django後端開發基礎"
-date: 2023-07-15
+date: 2025-04-15
 description: "Django框架入門指南，包含基礎概念、環境設置和第一個應用"
 tags: ["Django", "Python", "後端開發", "Web框架"]
 ---

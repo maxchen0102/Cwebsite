@@ -77,12 +77,12 @@ params:
 
   # 導航欄下拉選單設定
   navbarBackend:
-    - name: "Django和後端技術"
+    - name: "Django和後端技術文章"
       url: "/categories/backend/"
-    - name: "API 設計"
+    - name: "API 設計技術文章"
       url: "/categories/api-design/"
-    - name: "資料庫優化"
-      url: "/ategories/database/"
+    - name: "資料庫技術文章"
+      url: "/categories/database/"
     
   navbarCourses:
     - name: "Django 網站開發"
