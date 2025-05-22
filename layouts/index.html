@@ -1,93 +1,23 @@
 {{ define "main" }}
-<main class="fullscreen-main">
-  <!-- 全屏英雄區域 -->
-  <section class="hero-fullscreen">
-    <div class="hero-content">
-      <h2 class="hero-title">程式思維</h2>
-      <h2 class="hero-subtitle">探索程式開發的無限可能</h2>
-      <div class="hero-description">從資料結構到後端架構，由淺入深掌握核心技術</div>
-      <div class="cta-buttons">
-        <a href="/categories/leetcode/" class="cta-button primary">Leetcode刷題</a>
-        <a href="/categories/backend/" class="cta-button secondary">後端開發</a>
-      </div>
+
+
+<!-- 全幅橫向Banner（科技感） -->
+<section class="fullwidth-banner">
+  <div class="hero-content">
+    <h2 class="hero-title">程式思維</h2>
+    <h2 class="hero-subtitle">探索程式開發的無限可能</h2>
+    <div class="hero-description">從資料結構到後端架構，由淺入深掌握核心技術</div>
+    <div class="cta-buttons">
+      <a href="/categories/leetcode/" class="cta-button primary">Leetcode刷題</a>
+      <a href="/categories/backend/" class="cta-button secondary">後端開發</a>
     </div>
-    <div class="scroll-indicator">
-      <span>向下捲動探索更多</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-    </div>
-  </section>
+  </div>
+  <div class="scroll-indicator">
+    <span>向下捲動探索更多</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
+</section>
 
-
-  <!-- 專題亮點 -->
-  <section class="feature-section">
-    <div class="feature-card database">
-      <div class="feature-content">
-        <h2>資料庫優化</h2>
-        <p>從查詢優化到系統配置，全方位提升資料庫性能</p>
-        <a href="/categories/database/" class="feature-link">深入了解</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 最新文章區塊 -->
-  <section class="latest-articles">
-    <div class="section-wrapper">
-      <h2 class="section-heading">最新技術文章</h2>
-      <div class="article-grid">
-        {{ range first 3 (where .Site.RegularPages "Type" "in" (slice "posts" "categories")) }}
-        <article class="article-card">
-          <div class="article-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-            <span class="reading-time">{{ .ReadingTime }} min</span>
-          </div>
-          <h3 class="article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          <p class="article-excerpt">{{ .Description | default (substr .Summary 0 150) }}{{ if gt (len .Summary) 150 }}...{{ end }}</p>
-          <a href="{{ .Permalink }}" class="read-more">閱讀全文 →</a>
-        </article>
-        {{ end }}
-      </div>
-      <div class="section-footer">
-        <a href="/Cwebsite/posts/" class="view-all">查看所有文章</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 技術分類區塊 -->
-  <section class="category-section">
-    <div class="section-wrapper">
-      <h2 class="section-heading">專業領域</h2>
-      <div class="category-grid">
-        <div class="category-item backend">
-          <div class="category-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
-          </div>
-          <h3>後端開發</h3>
-          <p>探索Django、Flask與API設計的最佳實踐</p>
-          <a href="/categories/backend/" class="category-link">瀏覽文章</a>
-        </div>
-
-        <div class="category-item database">
-          <div class="category-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
-          </div>
-          <h3>資料庫優化</h3>
-          <p>提升查詢效能、設計索引與系統調優技巧</p>
-          <a href="/categories/database/" class="category-link">瀏覽文章</a>
-        </div>
-
-        <div class="category-item leetcode">
-          <div class="category-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </div>
-          <h3>LeetCode解題</h3>
-          <p>數據結構與演算法的實際應用與解析</p>
-          <a href="/categories/leetcode/" class="category-link">瀏覽文章</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</main>
 
 <!-- 數據統計區塊（科技感滿版） -->
 <section class="stats-section stats-fullwidth">
@@ -165,22 +95,49 @@
   </div>
 </section>
 
-<!-- 全幅橫向Banner（科技感） -->
-<section class="fullwidth-banner">
-  <div class="hero-content">
-    <h2 class="hero-title">程式思維</h2>
-    <h2 class="hero-subtitle">探索程式開發的無限可能</h2>
-    <div class="hero-description">從資料結構到後端架構，由淺入深掌握核心技術</div>
-    <div class="cta-buttons">
-      <a href="/categories/leetcode/" class="cta-button primary">Leetcode刷題</a>
-      <a href="/categories/backend/" class="cta-button secondary">後端開發</a>
+
+
+
+<main class="fullscreen-main">
+  <!-- 全屏英雄區域 -->
+  
+  <!-- 專題亮點 -->
+  <section class="feature-section">
+    <div class="feature-card database">
+      <div class="feature-content">
+        <h2>資料庫優化</h2>
+        <p>從查詢優化到系統配置，全方位提升資料庫性能</p>
+        <a href="/categories/database/" class="feature-link">深入了解</a>
+      </div>
     </div>
-  </div>
-  <div class="scroll-indicator">
-    <span>向下捲動探索更多</span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-  </div>
-</section>
+  </section>
+
+  <!-- 最新文章區塊 -->
+  <section class="latest-articles">
+    <div class="section-wrapper">
+      <h2 class="section-heading">最新技術文章</h2>
+      <div class="article-grid">
+        {{ range first 3 (where .Site.RegularPages "Type" "in" (slice "posts" "categories")) }}
+        <article class="article-card">
+          <div class="article-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+            <span class="reading-time">{{ .ReadingTime }} min</span>
+          </div>
+          <h3 class="article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="article-excerpt">{{ .Description | default (substr .Summary 0 150) }}{{ if gt (len .Summary) 150 }}...{{ end }}</p>
+          <a href="{{ .Permalink }}" class="read-more">閱讀全文 →</a>
+        </article>
+        {{ end }}
+      </div>
+      <div class="section-footer">
+        <a href="/Cwebsite/posts/" class="view-all">查看所有文章</a>
+      </div>
+    </div>
+  </section>
+
+
+
+</main>
 
 <style>
   /* 滿版科技風格 */
