@@ -75,7 +75,7 @@ params:
     showSocialLinks: true
     text: "感謝訪問我的技術網站，希望能幫助你搞定leetcode。"
 
-  # 導航欄下拉選單設定
+  # 導航欄下拉選單設定(router)
   navbarBackend:
     - name: "Django和後端技術文章"
       url: "/categories/backend/"
