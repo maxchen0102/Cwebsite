@@ -6,7 +6,8 @@ baseURL: "https://leetcode666.com/"  # 自定義網域使用
 # Google Analytics ID (G-XXXXXXXXXX 或 UA-XXXXXXXXX-X)
 googleAnalytics: "G-QNR8ZBX7XN"
 
-title: Chris's Website
+title: "程式思維"
+description: "深入淺出解析 LeetCode 解題思路與演算法概念，搭配後端技術教學：Django 架構、資料庫優化、API 設計與系統實戰，一站式養成你的全方位工程實力。"
 copyright: "© 2020-2025 程式思維 | All Rights Reserved."
 pagination:
   pagerSize: 10 # the number of posts to sho2 on the homepage
@@ -161,7 +162,7 @@ params:
   label:
     # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
     text: "Chris"
-    icon: "images/logo.png"
+    icon: "logo.png"
     iconHeight: 50
 
 
