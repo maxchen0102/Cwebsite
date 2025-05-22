@@ -16,6 +16,31 @@ iframe {
     border: 1px solid var(--border);
 }
 
+/* Override theme background colors */
+:root {
+    --theme: rgb(0, 0, 0) !important;
+    --entry: rgb(0, 0, 0) !important;
+    --primary: rgb(255, 255, 255) !important;
+    --secondary: rgb(200, 200, 200) !important;
+    --tertiary: rgb(50, 50, 50) !important;
+    --content: rgb(255, 255, 255) !important;
+    --code-block-bg: rgb(20, 20, 20) !important;
+    --code-bg: rgb(30, 30, 30) !important;
+    --border: rgb(50, 50, 50) !important;
+}
+
+.dark {
+    --theme: rgb(0, 0, 0) !important;
+    --entry: rgb(0, 0, 0) !important;
+    --primary: rgb(255, 255, 255) !important;
+    --secondary: rgb(200, 200, 200) !important;
+    --tertiary: rgb(50, 50, 50) !important;
+    --content: rgb(255, 255, 255) !important;
+    --code-block-bg: rgb(20, 20, 20) !important;
+    --code-bg: rgb(30, 30, 30) !important;
+    --border: rgb(50, 50, 50) !important;
+}
+
 /* Footer styles */
 .footer {
     padding: 40px 20px;
