@@ -6,9 +6,9 @@ summary: "了解更多關於我的資訊"
 disableShare: true
 ---
 
-## 我是誰
+## 嗨，我是 Chris！
 
-嗨，我是 Chris！一位熱衷於後端技術開發與分享的工程師。擁有超過 5 年的實際開發經驗，專精於 Python、Django 與資料庫優化。
+一位熱衷於後端技術開發與分享的工程師。專精於資料結構演算法，Python、Django 與資料庫優化。
 
 ## 專業技能
 
@@ -16,18 +16,8 @@ disableShare: true
 - **後端框架**：Django、Flask、Spring Boot
 - **資料庫**：PostgreSQL、MySQL、MongoDB
 - **DevOps**：Docker、Kubernetes、AWS
-- **前端技術**：HTML、CSS、React (基礎)
+- **前端技術**：HTML、CSS、React 
 
-## 工作經歷
-
-- **資深後端工程師** | ABC 科技有限公司 (2020-至今)
-  - 負責公司核心 API 服務的設計與優化
-  - 帶領團隊完成多個大型專案
-  - 實現資料庫查詢效能提升 200%
-
-- **軟體工程師** | XYZ 數位有限公司 (2018-2020)
-  - 開發與維護企業內部系統
-  - 設計 RESTful API 服務
 
 ## 教學與分享
 
@@ -41,9 +31,8 @@ disableShare: true
 
 如果您有任何問題、建議或合作機會，歡迎透過以下方式聯繫我：
 
-- Email: chris@example.com
-- LinkedIn: [Chris Chen](https://linkedin.com/in/chrischen)
-- GitHub: [maxchen0102](https://github.com/maxchen0102)
+- Email: kingcall550102@gmail.com
+
 
 ---
 
